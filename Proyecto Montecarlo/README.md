@@ -1,2 +1,4 @@
-Proyecto Montecarlo
+# Proyecto Montecarlo
+
+Santiago Ruiz Piedrahita
 
