@@ -1,0 +1,2 @@
+nombre-del-archivo.ext filter=lfs diff=lfs merge=lfs -text
+ProyectoMontecarloFinal.ipynb filter=lfs diff=lfs merge=lfs -text
