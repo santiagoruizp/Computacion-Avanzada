@@ -48,10 +48,10 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
 
 ---
 
-## <font color='megenta'>**Fase 1: Implementación del Modelo de Ising 2D ($h=0$)**</font>
+## **Fase 1: Implementación del Modelo de Ising 2D ($h=0$)**
 
 1. Inicialización
-   - Definir una red $ L \times L $ con valores de espín $ s_i = \pm1 $.
+   - Definir una red $ L \times L $ con valores de espín $ s_i = \pm 1 $.
    - Implementar condiciones de frontera periódicas y no periódicas.
    - Elegir un estado inicial (aleatorio y completamente ordenado).
    - Todo se realiza para tres diferentes temperaturas.
@@ -77,7 +77,7 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
    - Implementar un barrido en temperatura para encontrar $ T_c $.
 ---
 
-## <font color='megenta'>**Fase 2: Implementación del Modelo de Ising 2D ($h \neq 0$)**</font>
+## **Fase 2: Implementación del Modelo de Ising 2D ($h \neq 0$)**
 
 1. Se realizan los mismos analisis anteriores pero teniendo en cuenta el campo
     - Solo se trabajará con las condiciones de frontera periodicas. Esta fase está superpuesta con la fase 1 por comodidad.
@@ -86,10 +86,26 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
 
 ---
 
-## <font color='megenta'>**Fase 3: Extensión modelo de Ising 3D**</font>
-
+## Fase 3: Extensión modelo de Ising 3D
 
 1. Red cúbica $ L \times L \times L $
    - Modificar el código para manejar la tercera dimensión.
    - Ajustar las interacciones vecinas y condiciones de frontera.
+
+---
+
+# ❓ Dónde recibir ayuda
+
+Si tienes dudas o encuentras problemas, puedes:
+
+Contactarme en **santiago.ruizp@udea.edu.co**
+
+# 👩‍💻 Quién mantiene y contribuye
+
+Este proyecto es mantenido por:
+
+ Santiago Ruiz Piedrahita.
+ Físico, Universidad de Antioquia.
+ Estudiante maestría en Física, Universidad de Antioquia.
+
 
