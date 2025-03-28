@@ -92,6 +92,19 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
 
 ---
 
+# 📊 Resultados
+
+Todos los gráficos se pueden observar en ´Proyecto Montecarlo/images´. Algunos gráficos generados por la simulación incluyen:
+
+Configuración de espines en equilibrio para T = 2.5
+
+
+Curva de energía y magnetización en función de la temperatura.
+
+![Gráfico de Energía](images/6.Energy_Magnetization_L=60_N2.png)
+
+---
+
 # ❓ Dónde recibir ayuda
 
 Si tienes dudas o encuentras problemas, puedes:
