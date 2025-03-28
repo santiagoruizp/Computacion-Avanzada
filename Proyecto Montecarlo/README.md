@@ -8,7 +8,7 @@ Supongamos  N  partículas colocadas en una matriz cuadrada. Cada partícula tie
 
 El Hamiltoniano del modelo de Ising en una red de  N  sitios es:
 
-H=−J∑⟨i,j⟩σiσj−h∑iσi 
+$$\mathcal{H} = -J \sum_{\langle i,j \rangle} \sigma_i \sigma_j - h \sum_{i} \sigma_i$$
 
 Donde:
 
@@ -52,7 +52,7 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
 ## **Fase 1: Implementación del Modelo de Ising 2D ($h=0$)**
 
 1. Inicialización
-   - Definir una red $ L \times L $ con valores de espín $ s_i = \pm 1 $.
+   - Definir una red L×L con valores de espín si=±1 .
    - Implementar condiciones de frontera periódicas y no periódicas.
    - Elegir un estado inicial (aleatorio y completamente ordenado).
    - Todo se realiza para tres diferentes temperaturas.
@@ -86,7 +86,7 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
 
 ## Fase 3: Extensión modelo de Ising 3D
 
-1. Red cúbica $ L \times L \times L $
+1. Red cúbica L×L×L.
    - Modificar el código para manejar la tercera dimensión.
    - Ajustar las interacciones vecinas y condiciones de frontera.
 
