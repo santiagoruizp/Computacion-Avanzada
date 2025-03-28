@@ -116,7 +116,7 @@ Curvas de capacidad calorifica y suceptibilidad magnética.
 
 Curvas de enegía y magnétización en función del campo magnético.
 
-![Gráfico de campo](images/9.Mvsh-varied T_L=20.png)
+![[Gráfico de campo](images/9.Mvsh-varied T_L=20.png)](https://github.com/santiagoruizp/Computacion-Avanzada/blob/main/Proyecto%20Montecarlo/images/9.Mvsh-varied%20T_L%3D20.png)
 
 Visualización configuración en 3D.
 
