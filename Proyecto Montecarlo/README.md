@@ -47,6 +47,7 @@ $$ \chi =  \frac{1}{k_B T} (\langle M^2 \rangle - \langle M \rangle^2) $$
 Estas cantidades permiten estudiar el comportamiento crítico del sistema, particularmente cerca de la transición de fase ferromagnética en dos dimensiones cuando $J>0$.
 
 ---
+## 🖥️ ¿Qué hace el código?
 
 ## **Fase 1: Implementación del Modelo de Ising 2D ($h=0$)**
 
@@ -75,16 +76,13 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
 6. Medición de Observables
    - Promediar energía, magnetización, suceptibilidad y calor específico a distintas temperaturas.
    - Implementar un barrido en temperatura para encontrar $ T_c $.
----
-
+   - 
 ## **Fase 2: Implementación del Modelo de Ising 2D ($h \neq 0$)**
 
 1. Se realizan los mismos analisis anteriores pero teniendo en cuenta el campo
     - Solo se trabajará con las condiciones de frontera periodicas. Esta fase está superpuesta con la fase 1 por comodidad.
 
 2. Estudio del diagrama de fases en función de $T$ y $h$.
-
----
 
 ## Fase 3: Extensión modelo de Ising 3D
 
@@ -105,7 +103,9 @@ Contactarme en **santiago.ruizp@udea.edu.co**
 Este proyecto es mantenido por:
 
  Santiago Ruiz Piedrahita.
+ 
  Físico, Universidad de Antioquia.
+ 
  Estudiante maestría en Física, Universidad de Antioquia.
 
 
