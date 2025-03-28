@@ -62,7 +62,7 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
    - Definir la magnetización.
 
 3. Algoritmo de Montecarlo con Metrópolis
-   - Seleccionar un espín al azar y calcular el cambio de energía $ \Delta E $ si se invierte.
+   - Seleccionar un espín al azar y calcular el cambio de energía ΔE si se invierte.
    - Generar un número aleatorio $r$ entre $[0,1]$
    - Aceptar el cambio si $r < e^{-\beta\Delta E} $.
    - Repetir el proceso para un número suficiente de iteraciones.
@@ -75,8 +75,8 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
 
 6. Medición de Observables
    - Promediar energía, magnetización, suceptibilidad y calor específico a distintas temperaturas.
-   - Implementar un barrido en temperatura para encontrar $ T_c $.
-   - 
+   - Implementar un barrido en temperatura para encontrar Tc .
+     
 ## **Fase 2: Implementación del Modelo de Ising 2D ($h \neq 0$)**
 
 1. Se realizan los mismos analisis anteriores pero teniendo en cuenta el campo
