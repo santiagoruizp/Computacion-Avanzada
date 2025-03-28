@@ -100,7 +100,7 @@ Algunos gráficos generados por la simulación incluyen:
 
 Configuración inicial aleatoria.
 
-![Gráfico de heat](images/1.Random_initial_configuration.png)
+![Gráfico de inicial](images/1.Random_initial_configuration.png)
 
 Configuraciones iniciales y finales para 3 temperaturas, variando las condiciones.
 
@@ -116,15 +116,15 @@ Curvas de capacidad calorifica y suceptibilidad magnética.
 
 Curvas de enegía y magnétización en función del campo magnético.
 
-![Gráfico de campo](9.Mvsh-varied T_L=20)
+![Gráfico de campo](images/9.Mvsh-varied T_L=20.png)
 
 Visualización configuración en 3D.
 
-![Gráfico de heat](images/10.red_ising_3D.png)
+![Gráfico de 3D](images/10.red_ising_3D.png)
 
 Curva de energía y magnetización en función de la temperatura para 3D.
 
-![Gráfico de heat](images/12.MvsT-EvsT_3D_L=10.png)
+![Gráfico de 3D M y E](images/12.MvsT-EvsT_3D_L=10.png)
 
 ---
 
