@@ -94,14 +94,37 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
 
 # 📊 Resultados
 
-Todos los gráficos se pueden observar en ´Proyecto Montecarlo/images´. Algunos gráficos generados por la simulación incluyen:
+Todos los gráficos se pueden observar en [´Proyecto Montecarlo/images´](https://github.com/santiagoruizp/Computacion-Avanzada/tree/main/Proyecto%20Montecarlo/images). 
 
-Configuración de espines en equilibrio para T = 2.5
+Algunos gráficos generados por la simulación incluyen:
 
+Configuración inicial aleatoria.
+
+![Gráfico de heat](images/1.Random_initial_configuration.png)
+
+Configuraciones iniciales y finales para 3 temperaturas, variando las condiciones.
+
+![Gráfico de configuraciones](images/2.configurations_3Temp_L=60.png)
 
 Curva de energía y magnetización en función de la temperatura.
 
 ![Gráfico de Energía](images/6.Energy_Magnetization_L=60_N2.png)
+
+Curvas de capacidad calorifica y suceptibilidad magnética.
+
+![Gráfico de heat](images/7.Heat-Suceptibility_L=60.png)
+
+Curvas de enegía y magnétización en función del campo magnético.
+
+![Gráfico de campo](9.Mvsh-varied T_L=20)
+
+Visualización configuración en 3D.
+
+![Gráfico de heat](images/10.red_ising_3D.png)
+
+Curva de energía y magnetización en función de la temperatura para 3D.
+
+![Gráfico de heat](images/12.MvsT-EvsT_3D_L=10.png)
 
 ---
 
