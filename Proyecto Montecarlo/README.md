@@ -4,21 +4,21 @@
 
 Este proyecto implementa una simulación del modelo de Ising utilizando el método de Montecarlo en dos y tres dimensiones. Se emplea el algoritmo de Metropolis para modelar la evolución de un sistema de espines y estudiar su comportamiento térmico.
 
-Supongamos $N$ partículas colocadas en una matriz cuadrada. Cada partícula tiene un espín asociado que puede apuntar sólo en dos sentidos, arriba o abajo ($\sigma_i = \pm 1$). Cada una de esas orientaciones se llaman espín de la partícula. El sentido del espín queda determinado mediante la interacción de la partícula con sus vecinas, por fluctuaciones térmicas ($T$) y por campos magnéticos externos ($h$).
+Supongamos  N  partículas colocadas en una matriz cuadrada. Cada partícula tiene un espín asociado que puede apuntar sólo en dos sentidos, arriba o abajo ( σi=±1 ). Cada una de esas orientaciones se llaman espín de la partícula. El sentido del espín queda determinado mediante la interacción de la partícula con sus vecinas, por fluctuaciones térmicas ( T ) y por campos magnéticos externos ( h ).
 
-El Hamiltoniano del modelo de Ising en una red de $N$ sitios es:
+El Hamiltoniano del modelo de Ising en una red de  N  sitios es:
 
-$$\mathcal{H} = -J \sum_{\langle i,j \rangle} \sigma_i \sigma_j - h \sum_{i} \sigma_i$$
+H=−J∑⟨i,j⟩σiσj−h∑iσi 
 
 Donde:
 
-* $J$ es la constante de acoplamiento o integral de intercambio representa la fuerza de interacción entre los espines vecinos (si $ J > 0 $, la interacción es ferromagnética; si $ J < 0 $, es antiferromagnética).
+J  es la constante de acoplamiento o integral de intercambio representa la fuerza de interacción entre los espines vecinos (si  J>0 , la interacción es ferromagnética; si  J<0 , es antiferromagnética).
 
-* $\langle i,j\rangle$ indica la suma sobre pares de sitios vecinos.
+⟨i,j⟩  indica la suma sobre pares de sitios vecinos.
 
-* $ h $ es el campo magnético externo.
+h  es el campo magnético externo.
 
-* $ \sigma_i $ representa los espines individuales ($\sigma_i = \pm 1$)
+σi  representa los espines individuales ( σi=±1 )
 
 ---
 
