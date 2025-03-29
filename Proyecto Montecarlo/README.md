@@ -108,7 +108,7 @@ Configuraciones iniciales y finales para 3 temperaturas, variando las condicione
 
 Curva de energía y magnetización en función de la temperatura.
 
-![Gráfico de Energía](images/6.Energy_Magnetization_L=60_N2.png)
+![Gráfico de Energía](images/6.Energy_Magnetization_L=60_N2_C.png)
 
 Curvas de capacidad calorifica y suceptibilidad magnética.
 
