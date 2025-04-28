@@ -7,7 +7,7 @@ import time
 # --- Parámetros ---
 L = [20, 40, 60, 80, 100]  # Tamaños de sistema a evaluar
 nsteps = [l * 1000 for l in L]  # Número de pasos Monte Carlo para cada L
-Temp = np.linspace(0.1, 10, 100)  # Rango de temperaturas
+Temp = np.linspace(0.1, 10, 30)  # Rango de temperaturas
 args = [[(T, l, steps) for T in Temp] for l, steps in zip(L, nsteps)]  # Argumentos para cada simulación
 
 numero_procesadores = 6  # Número de procesadores para paralelización
