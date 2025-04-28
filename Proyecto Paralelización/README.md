@@ -77,11 +77,11 @@ Algunos gráficos generados por la simulación incluyen:
 
 Configuración inicial ordenada, L = 20.
 
-![Gráfico de inicial](imagenes/inicial_configuration_l_=_20_test.png)
+![Gráfico de inicial](Imagenes/inicial_configuration_l_=_20_test.png)
 
 Configuración final, L = 20.
 
-![Gráfico de inicial](imagenes/final_configuration_l_=_20_test.png)
+![Gráfico de inicial](Imagenes/final_configuration_l_=_20_test.png)
 
 # ❓ Dónde recibir ayuda
 
