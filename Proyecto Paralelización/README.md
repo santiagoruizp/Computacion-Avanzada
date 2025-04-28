@@ -2,7 +2,7 @@
 
 # 📌 ¿Qué hace el proyecto?
 
-Este proyecto implementa una simulación del modelo de Ising utilizando el método de Montecarlo en dos dimensiones. Se emplea el algoritmo de Metropolis para modelar la evolución de un sistema de espines y estudiar su comportamiento térmico. El análisis es abordado desde la computación en serie y la computación en paralelo, haciendo una comparación de los tiempos de computo, además de comparaciones entre Google Colab y un servidor.
+Este proyecto implementa una simulación del modelo de Ising utilizando el método de Montecarlo en dos dimensiones. Se emplea el algoritmo de Metropolis para modelar la evolución de un sistema de espines y estudiar su comportamiento térmico. El análisis es abordado desde la computación en serie y la computación en paralelo, haciendo una comparación de los tiempos de cómputo, además de comparaciones entre Google Colab y un servidor.
 
 Supongamos  N  partículas colocadas en una matriz cuadrada. Cada partícula tiene un espín asociado que puede apuntar sólo en dos sentidos, arriba o abajo ( σi=±1 ). Cada una de esas orientaciones se llaman espín de la partícula. El sentido del espín queda determinado mediante la interacción de la partícula con sus vecinas, por fluctuaciones térmicas ( T ) y por campos magnéticos externos ( h ).
 
@@ -82,6 +82,35 @@ Configuración inicial ordenada, L = 20.
 Configuración final, L = 20.
 
 ![Gráfico de inicial](Imagenes/final_configuration_l_=_20_test.png)
+
+Configuración final, L = 150.
+
+![Gráfico de inicial](Imagenes/final_configuration_l_=_150.png)
+
+Análisis de convergencia del número de pasos Montecarlo.
+
+![Gráfico de inicial](Imagenes/Convergence.png)
+
+Curva de energía y magnetización en función de la temperatura, método computación en serie, en Google Colab.
+
+![Gráfico de inicial](Imagenes/EnergiaYMagnetizacion.png)
+
+Curvas de capacidad calorifica y suceptibilidad magnética, método computación en serie, en Google Colab.
+
+![Gráfico de inicial](Imagenes/heat.png)
+
+Curva de energía y magnetización en función de la temperatura, método computación en paralelo, en el servidor.
+
+![Gráfico de inicial](Imagenes/EnergiaYMagnetizacion_paralelizacion_200.png)
+
+Tiempos de cómputo en función de L, para el promedio de cómputo promedio de 1 temperatura, tanto para computación en serie y paralelización (colab y servidor),
+además de tiempo de cómputo para 30 valores de temperatura, tanto para computación en serie y paralelización (colab y servidor).
+
+![Gráfico de inicial](Imagenes/resultados_tiempo_paralelizacion_6.png)
+
+Tiempo de cómputo promedio de 1 temperatura y tiempo total de cómputo de 100 temperaturas para diferentes sistemas hasta L = 200.
+
+![Gráfico de inicial](Imagenes/resultados_tiempo_paralelizacion_7.png)
 
 # ❓ Dónde recibir ayuda
 
