@@ -54,14 +54,14 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
 
 1. Se implementa la clase `IsingModel2D`, que modela un sistema cuadrado de espines utilizando interacciones de primer vecino.
   - Solo se trabaja con condiciones de frontera periódicas (pbc), una configuración inicial ordenada, sistemas ferromagnéticos ($J = 1$), en ausencia de campos magnéticos externos ($h \ne 0$). Sin embargo el código cuenta con las herramientas necesarias para hacer los análisis con otras condiciones.
-2. Se realiza una prueba inicial del modelo simulando un solo valor de temperatura para $ L = 20 $, verificando la correcta evolución de energía y magnetización.
-3. Se lleva a cabo un análisis de convergencia, simulando una temperatura fija y variando el tamaño del sistema $ L $, observando la dependencia de los resultados con el tamaño de la red.
-4. Se estudia el cambio de fase del sistema analizando el comportamiento de la energía y la magnetización al variar la temperatura, repitiendo este procedimiento para diferentes valores de $ L $.
+2. Se realiza una prueba inicial del modelo simulando un solo valor de temperatura para L=20, verificando la correcta evolución de energía y magnetización.
+3. Se lleva a cabo un análisis de convergencia, simulando una temperatura fija y variando el tamaño del sistema L, observando la dependencia de los resultados con el tamaño de la red.
+4. Se estudia el cambio de fase del sistema analizando el comportamiento de la energía y la magnetización al variar la temperatura, repitiendo este procedimiento para diferentes valores de L.
 
 ## Fase 2: Computación en paralelo.
 
 1. Se verifica el correcto funcionamiento de la paralelización mediante la implementación de procesamiento paralelo con `multiprocessing`, asegurando que los resultados coincidan con los obtenidos en serie.
-2. Se repite el análisis del cambio de fase utilizando computación en paralelo, evaluando la eficiencia en la ejecución cuando se varían tanto la temperatura como el tamaño del sistema $ L $.
+2. Se repite el análisis del cambio de fase utilizando computación en paralelo, evaluando la eficiencia en la ejecución cuando se varían tanto la temperatura como el tamaño del sistema L.
 
 ## Fase 3: Análisis de tiempos de cómputo.
 
