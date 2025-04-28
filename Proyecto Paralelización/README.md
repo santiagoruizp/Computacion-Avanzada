@@ -71,7 +71,7 @@ Estas cantidades permiten estudiar el comportamiento crítico del sistema, parti
   
 # 📊 Resultados
 
-Todos los gráficos se pueden observar en [´Proyecto Montecarlo/images´](https://github.com/santiagoruizp/Computacion-Avanzada/tree/main/Proyecto%20Paralelizaci%C3%B3n/Imagenes). 
+Todos los gráficos se pueden observar en [´Proyecto Paralelización/Imagenes´](https://github.com/santiagoruizp/Computacion-Avanzada/tree/main/Proyecto%20Paralelizaci%C3%B3n/Imagenes). 
 
 Algunos gráficos generados por la simulación incluyen:
 
