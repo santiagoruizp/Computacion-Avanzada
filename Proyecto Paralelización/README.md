@@ -75,9 +75,13 @@ Todos los gráficos se pueden observar en [´Proyecto Montecarlo/images´](https
 
 Algunos gráficos generados por la simulación incluyen:
 
-Configuración inicial ordenada.
+Configuración inicial ordenada, L = 20.
 
 ![Gráfico de inicial](imagenes/inicial_configuration_l_=_20_test.png)
+
+Configuración final, L = 20.
+
+![Gráfico de inicial](imagenes/final_configuration_l_=_20_test.png)
 
 # ❓ Dónde recibir ayuda
 
